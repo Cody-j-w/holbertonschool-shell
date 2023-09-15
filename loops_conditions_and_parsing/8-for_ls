@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this script uses a for loop to replicate ls functionality
+
+for x in *
+do
+    echo "$x"
+done
